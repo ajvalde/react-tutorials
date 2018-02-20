@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Link, Route, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Category from './Category'
+import Products from './Products'
 
 /* Home component */
 const Home = () => (
@@ -11,18 +13,18 @@ const Home = () => (
 )
 
 /* Category component */
-const Category = () => (
-  <div>
-    <h2>Category</h2>
-  </div>
-)
+// const Category = () => (
+//   <div>
+//     <h2>Category</h2>
+//   </div>
+// )
 
 /* Products component */
-const Products = () => (
-  <div>
-    <h2>Products</h2>
-  </div>
-)
+// const Products = () => (
+//   <div>
+//     <h2>Products</h2>
+//   </div>
+// )
 
 /* App component */
 
